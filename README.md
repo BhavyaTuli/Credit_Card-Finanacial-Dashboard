@@ -22,15 +22,14 @@ The core idea of this project is to develop an advanced Credit Card Financial Da
  Hence, I have used two of the major Azure technologies that the FRT project requires.
 
  # Project Insights (Week 53)
- → Revenue increased by 28.8 %.
- → Total Transaction Amt & Count increased by 74.9% & 91.6%.
- → Overall Revenue is 57M.
- → Total Interest is 8M.
- → Total Transaction Amt is 46M.
- → Male customers are contributing more to revenue 31M, female 26M.
- → Blue & Silver credit card are contributing o 93% of overall transactions.
- → TX, NY & CA cities are contributing to 68%
- → Overall Activation rate is 57.5%.
- → Overall Delinquent Rate is 6.06%.
-
+1. Revenue increased by 28.8 %. 
+2. Total Transaction Amt & Count increased by 74.9% & 91.6%. 
+3. Overall Revenue is 57M. 
+4. Total Interest is 8M. 
+5. Total Transaction Amt is 46M. 
+6. Male customers are contributing more to revenue 31M, female 26M. 
+7. Blue & Silver credit card are contributing o 93% of overall transactions. 
+8. TX, NY & CA cities are contributing to 68% 
+9. Overall Activation rate is 57.5%. 
+10. Overall Delinquent Rate is 6.06%.
 
