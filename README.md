@@ -1,35 +1,61 @@
-# Credit_Card-Finanacial-Dashboard
-Credit Card Weekly Finanacial Dashboard using SQL and Power BI.
+# 💳 Credit Card Financial Dashboard
 
-# DEVOPS
-https://dev.azure.com/bhavya21930111/Credit%20Card%20Dashboard/_git/Credit%20Card%20Dashboard
+## 📌 Overview
+The **Credit Card Financial Dashboard** is a **SQL and Power BI-based solution** designed to analyze and visualize credit card transaction data on a **weekly basis**. By leveraging **Microsoft SQL Server and Power BI**, this dashboard provides insights into customer spending patterns, revenue trends, and key financial metrics. The dataset includes transactions up to **Week 52 of 2023** along with additional **Week 53 (31st December) data** to assess weekly changes.
 
-# Project Objective
-The core idea of this project is to develop an advanced Credit Card Financial Dashboard using Power BI and Microsoft SQL Server, leveraging a 2023 dataset and additional Week 53(31st December) dataset of US credit card customers to determine weekly change of data. The dashboard will offer an intuitive and interactive interface for financial analysts and decision-makers, enabling them to monitor and analyze various metrics related to credit card usage.
+## 🛠 Tech Stack
+- **Database:** Microsoft SQL Server
+- **Visualization:** Power BI
+- **Version Control & Deployment:** Azure DevOps
 
-# Import data to SQL database
-1. Prepare csv file 
-2. Create tables in SQL
-3. import csv file into SQL
+## 🎯 Project Objective
+The goal of this project is to **develop an interactive financial dashboard** that helps financial analysts and decision-makers **monitor and evaluate credit card usage trends**. The dashboard enables:
+- Tracking revenue and transaction changes
+- Identifying customer spending behavior
+- Analyzing credit card performance across different segments
 
-# PowerBI Dashboard
+## 📂 Data Processing Workflow
+1️⃣ **Import Data to SQL Server**
+   - Prepare and clean CSV files
+   - Create tables in SQL Server
+   - Load data into SQL database
+
+2️⃣ **Develop Power BI Dashboard**
+   - Connect Power BI to SQL database
+   - Create data models and relationships
+   - Design interactive visualizations
+
+## 🚀 Deployment Process
+- Used **SQL Server Management Studio 20** for database handling.
+- Imported **Week 52 and additional Week 53 data** into SQL Server.
+- Loaded SQL tabular data into **Power BI** for visualization.
+- Integrated **Azure DevOps** to connect GitHub repository for deployment on the web.
+
+🔗 **Azure DevOps Repository:** [Credit Card Dashboard](https://dev.azure.com/bhavya21930111/Credit%20Card%20Dashboard/_git/Credit%20Card%20Dashboard)
+
+## PowerBI Dashboard
 
 ![Screenshot 2024-06-12 052101](https://github.com/BhavyaTuli/Credit_Card-Finanacial-Dashboard/assets/159495674/5e7918c0-2a27-4b71-9fc5-a5b03c30bb61)
 ![Screenshot 2024-06-12 052217](https://github.com/BhavyaTuli/Credit_Card-Finanacial-Dashboard/assets/159495674/5c79498a-89db-4fc4-8737-db6ebf5c49df)
 
-# Deployment
- I have used SQL Server Management Studio 20, Power BI and DevOps for deploying my project. First I used MS SQL server for importing data till Week 52 and additional Week 53 data at the end. Then, I loaded my SQL Server Tabular data into Power BI and used it to make an interactive and insightful dashboard. After the project is done, I have used Devops to connect my Github repo such that I can deploy this on open Web.
- Hence, I have used two of the major Azure technologies that the FRT project requires.
+## 📊 Project Insights (Week 53)
+- **Revenue** increased by **28.8%** 📈
+- **Total Transaction Amount & Count** rose by **74.9%** & **91.6%**
+- **Overall Revenue:** $57M 💰
+- **Total Interest Earned:** $8M
+- **Total Transaction Amount:** $46M
+- **Male Customers** contribute **$31M**, Female **$26M**
+- **Blue & Silver Credit Cards** account for **93% of transactions**
+- **Top Contributing States:** TX, NY & CA (~68% of revenue)
+- **Overall Activation Rate:** **57.5%**
+- **Overall Delinquent Rate:** **6.06%**
 
- # Project Insights (Week 53)
-1. Revenue increased by 28.8 %. 
-2. Total Transaction Amt & Count increased by 74.9% & 91.6%. 
-3. Overall Revenue is 57M. 
-4. Total Interest is 8M. 
-5. Total Transaction Amt is 46M. 
-6. Male customers are contributing more to revenue 31M, female 26M. 
-7. Blue & Silver credit card are contributing o 93% of overall transactions. 
-8. TX, NY & CA cities are contributing to 68% 
-9. Overall Activation rate is 57.5%. 
-10. Overall Delinquent Rate is 6.06%.
+## 📌 Key Takeaways
+- The **significant transaction growth in Week 53** highlights an increase in spending habits.
+- **Blue & Silver credit cards** dominate the market, making them a primary focus for financial strategies.
+- **Male customers contribute slightly more** to total revenue compared to female customers.
+- **Delinquent Rate remains stable** but requires continuous monitoring to prevent risks.
+
+
+
 
